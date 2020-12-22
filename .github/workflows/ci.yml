@@ -9,6 +9,8 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2
+            - run: sudo pwd
+            - run: sudo ls
             - name: Ballerina Build
               uses: ballerina-platform/ballerina-action/@swan-lake-connector-release
               with:
