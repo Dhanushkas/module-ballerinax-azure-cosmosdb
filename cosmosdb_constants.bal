@@ -13,7 +13,6 @@
 // KIND, either express or implied.  See the License for the
 // specific language governing permissions and limitations
 // under the License. 
-
 # Represents Token type for a master token
 public const string TOKEN_TYPE_MASTER = "master";
 
